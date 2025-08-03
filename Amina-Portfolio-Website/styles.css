@@ -267,6 +267,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header{
+flex-direction: column;
+        text-align: center;
+    }
     .hero {
         flex-direction: column;
         text-align: center;
@@ -284,3 +288,4 @@ footer {
         margin: 10px auto;
     }
 }
+
