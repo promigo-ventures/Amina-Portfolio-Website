@@ -267,27 +267,108 @@ footer {
     color: #555;
 }
 
+
+
+
+
+
+
 @media (max-width: 768px) {
-    header{
-flex-direction: column;
+    header {
+        flex-direction: column;
         text-align: center;
+        height: auto;
+        padding: 15px 20px;
     }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .hero .name {
+        margin-top: 0;
+    }
+
+    .hero .name h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .my-pic {
+        margin-left: 0;
+        justify-content: center;
     }
 
     .my-pic img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .about {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .about p {
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .skills .skill-list span {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .projects h2,
+    .skills h2,
+    .education h2,
+    .contact h2 {
+        font-size: 28px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
     }
 
     .project-card .div1,
     .project-card .div2 {
         width: 90%;
         height: auto;
-        margin: 10px auto;
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    .education p,
+    .contact p {
+        font-size: 1rem;
+    }
+
+    .contact a.btn {
+        padding: 10px 20px;
     }
 }
+
 
 
